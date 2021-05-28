@@ -1,0 +1,2656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GARUDA</class>
+ <widget class="QMainWindow" name="GARUDA">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1081</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GARUDA</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">/*background-color: qlineargradient(spread:pad, x1:0.309, y1:0.335364, x2:1, y2:1, stop:0.224719 rgba(43, 0, 96, 255), stop:1 rgba(255, 255, 255, 255))*/
+
+background-color: qlineargradient(spread:pad, x1:0.309, y1:0.335364, x2:1, y2:1, stop:0.224719 rgba(43, 0, 96, 255), stop:1 rgba(0, 196, 255, 255));</string>
+   </property>
+   <widget class="QTabWidget" name="TabContainer">
+    <property name="geometry">
+     <rect>
+      <x>-2</x>
+      <y>-2</y>
+      <width>1940</width>
+      <height>1081</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 8pt &quot;Roboto Slab Black&quot;;
+border-color: rgb(46, 27, 58);
+background-color: transparent;
+</string>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>16</width>
+      <height>16</height>
+     </size>
+    </property>
+    <widget class="QWidget" name="Panel1">
+     <property name="styleSheet">
+      <string notr="true">/*background-color: qlineargradient(spread:pad, x1:0.309, y1:0.335364, x2:1, y2:1, stop:0.224719 rgba(43, 0, 96, 255), stop:1 rgba(0, 196, 255, 255));*/
+/*background-color: rgb(46, 27, 58)*/
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0.0454545, x2:1, y2:1, stop:0.623596 rgba(0, 196, 255, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+background-color: qlineargradient(spread:pad, x1:0.309, y1:0.335364, x2:1, y2:1, stop:0.224719 rgba(43, 0, 96, 255), stop:1 rgba(0, 196, 255, 255));</string>
+     </property>
+     <attribute name="title">
+      <string>Panel 1</string>
+     </attribute>
+     <widget class="QWidget" name="TeamLogo" native="true">
+      <property name="geometry">
+       <rect>
+        <x>1760</x>
+        <y>-4</y>
+        <width>151</width>
+        <height>133</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Images/Images/TeamLogo.png);
+background-color: transparent;</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="P1Container" native="true">
+      <property name="geometry">
+       <rect>
+        <x>1360</x>
+        <y>130</y>
+        <width>561</width>
+        <height>891</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Images/Images/border1-02.png);
+background-color: transparent;</string>
+      </property>
+      <widget class="QLabel" name="CommandHeader">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>58</y>
+         <width>211</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;
+font: 87 12pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>COMMANDS</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SIMACTIVATE">
+       <property name="geometry">
+        <rect>
+         <x>371</x>
+         <y>90</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SIM ACTIVATE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SETTIME">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>91</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Text">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="ButtonText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Base">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="PlaceholderText">
+           <brush brushstyle="NoBrush">
+            <color alpha="128">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Text">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="ButtonText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Base">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="PlaceholderText">
+           <brush brushstyle="NoBrush">
+            <color alpha="128">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="WindowText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Text">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="ButtonText">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Base">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>233</red>
+             <green>250</green>
+             <blue>255</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="PlaceholderText">
+           <brush brushstyle="NoBrush">
+            <color alpha="128">
+             <red>14</red>
+             <green>0</green>
+             <blue>118</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SET TIME</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SP1X">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>146</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SP1X ON</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SIMENABLE">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>90</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SIM ENABLE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SIMDISABLE">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>118</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SIM DISABLE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SIMP">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>118</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SIMP</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="CX">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>146</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>CX ON</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="MQTT">
+       <property name="geometry">
+        <rect>
+         <x>371</x>
+         <y>117</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>ENABLE MQTT</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="TelemetryContainer" native="true">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>230</y>
+         <width>471</width>
+         <height>471</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);</string>
+       </property>
+       <widget class="QSplitter" name="splitter">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>151</width>
+          <height>471</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="teamID">
+         <property name="text">
+          <string>Team ID</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="missionTime">
+         <property name="text">
+          <string>Mission Time</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsTime">
+         <property name="text">
+          <string>GPS Time</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="packetCount">
+         <property name="text">
+          <string>Packet Count</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="sp1Released">
+         <property name="text">
+          <string>SP1 Released</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="sp2Released">
+         <property name="text">
+          <string>SP2 Released</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="packetType">
+         <property name="text">
+          <string>Packet Type</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="softwareState">
+         <property name="text">
+          <string>Software State</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsState">
+         <property name="text">
+          <string>GPS State</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsAltitude">
+         <property name="text">
+          <string>GPS Altitude</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsLongitude">
+         <property name="text">
+          <string>GPS Longitude</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsLatitude">
+         <property name="text">
+          <string>GPS Latitude</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="Mode">
+         <property name="text">
+          <string>Mode</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="cmdEcho">
+         <property name="text">
+          <string>CMD Echo</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_2">
+        <property name="geometry">
+         <rect>
+          <x>158</x>
+          <y>0</y>
+          <width>151</width>
+          <height>437</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="teamIDval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="missionTimeval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsTimeval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="packetCountval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="sp1Releasedval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="sp2Releasedval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="packetTypeval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="softwareStateval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsStateval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsAltitudeval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsLongitudeval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsLatitudeval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+        <widget class="QLabel" name="modeval">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QSplitter" name="splitter_3">
+        <property name="geometry">
+         <rect>
+          <x>302</x>
+          <y>0</y>
+          <width>152</width>
+          <height>437</height>
+         </rect>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+        <widget class="QLabel" name="teamIDunit">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="missionTimeunit">
+         <property name="text">
+          <string>HH:MM:SS</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsTimeunit">
+         <property name="text">
+          <string>HH:MM:SS</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="packetCountunit">
+         <property name="text">
+          <string>NOS</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="sp1Releasedunit">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="sp2ReleasedUnit">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="packetTypeunit">
+         <property name="text">
+          <string>PKT</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="softwareStateunit">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsStateunit">
+         <property name="text">
+          <string>MODE</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsAltitudeunit">
+         <property name="text">
+          <string>METERS</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsLongitudeunit">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="gpsLatitudeunit">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="modeunit">
+         <property name="text">
+          <string>-</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QLabel" name="cmdEchoval">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>442</y>
+          <width>311</width>
+          <height>30</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>CMD,3394,SIMP,101325</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="TelemetryHeader">
+       <property name="geometry">
+        <rect>
+         <x>196</x>
+         <y>189</y>
+         <width>211</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;
+font: 87 12pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>TELEMETRY</string>
+       </property>
+      </widget>
+      <widget class="QTextEdit" name="telemetryDisplay">
+       <property name="geometry">
+        <rect>
+         <x>54</x>
+         <y>730</y>
+         <width>450</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto Slab Black</family>
+         <pointsize>6</pointsize>
+         <weight>10</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(233, 250, 255);
+font: 87 6pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="placeholderText">
+        <string>3394,12:31:04,815,C,S,Y,Y,0,23.671,8.43,01:29:15,28.6071734, 77.04052356,0,9,6,281,238,CMD,3394,SIMP,101325,3394, 12:31:04,281,S1,133.333,23.698,381.09,3394,12:31:04,238,S2,92.37,23.65,380.5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="telemetryEchoHeader">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>698</y>
+         <width>241</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;
+font: 87 12pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Telemetry Echo</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SP2X">
+       <property name="geometry">
+        <rect>
+         <x>372</x>
+         <y>146</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SP2X ON</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="CommandHeader_2">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>30</y>
+         <width>401</width>
+         <height>30</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;
+font: 87 12pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>SIMULATION MODE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SP1X_Rel">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>172</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SP1X RELEASE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="SP2X_Rel">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>171</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>SP2X RELEASE</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="CALIBRATION">
+       <property name="geometry">
+        <rect>
+         <x>373</x>
+         <y>171</y>
+         <width>145</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 9pt &quot;Roboto Slab Black&quot;;
+/*color: rgb(132, 18, 20);*/
+color:rgb(14, 0, 118);
+border-width: 10px;</string>
+       </property>
+       <property name="text">
+        <string>CALIBRATION</string>
+       </property>
+      </widget>
+      <zorder>CommandHeader</zorder>
+      <zorder>SIMACTIVATE</zorder>
+      <zorder>SETTIME</zorder>
+      <zorder>SP1X</zorder>
+      <zorder>SIMENABLE</zorder>
+      <zorder>SIMDISABLE</zorder>
+      <zorder>SIMP</zorder>
+      <zorder>CX</zorder>
+      <zorder>MQTT</zorder>
+      <zorder>TelemetryContainer</zorder>
+      <zorder>TelemetryHeader</zorder>
+      <zorder>telemetryEchoHeader</zorder>
+      <zorder>SP2X</zorder>
+      <zorder>telemetryDisplay</zorder>
+      <zorder>CommandHeader_2</zorder>
+      <zorder>SP1X_Rel</zorder>
+      <zorder>SP2X_Rel</zorder>
+      <zorder>CALIBRATION</zorder>
+     </widget>
+     <widget class="QWidget" name="GraphHeader" native="true">
+      <property name="geometry">
+       <rect>
+        <x>16</x>
+        <y>141</y>
+        <width>1351</width>
+        <height>861</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Images/Images/border1-03.png);
+background-color: transparent;</string>
+      </property>
+      <widget class="QWidget" name="sp2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>320</y>
+         <width>1221</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(233, 250, 255);
+image: null;</string>
+       </property>
+       <widget class="QCustomPlot" name="sp2Rotation" native="true">
+        <property name="geometry">
+         <rect>
+          <x>622</x>
+          <y>1</y>
+          <width>288</width>
+          <height>217</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QCustomPlot" name="sp2Altitude" native="true">
+        <property name="geometry">
+         <rect>
+          <x>318</x>
+          <y>1</y>
+          <width>289</width>
+          <height>217</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QCustomPlot" name="sp2Temp" native="true">
+        <property name="geometry">
+         <rect>
+          <x>925</x>
+          <y>1</y>
+          <width>288</width>
+          <height>217</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QCustomPlot" name="sp2Pressure" native="true">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>1</y>
+          <width>288</width>
+          <height>217</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2a" native="true">
+        <property name="geometry">
+         <rect>
+          <x>295</x>
+          <y>55</y>
+          <width>31</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-06.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2r" native="true">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>56</y>
+          <width>31</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-07.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2t" native="true">
+        <property name="geometry">
+         <rect>
+          <x>904</x>
+          <y>44</y>
+          <width>31</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-08.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_9" native="true">
+        <property name="geometry">
+         <rect>
+          <x>448</x>
+          <y>220</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_10" native="true">
+        <property name="geometry">
+         <rect>
+          <x>738</x>
+          <y>220</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_11" native="true">
+        <property name="geometry">
+         <rect>
+          <x>128</x>
+          <y>220</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_12" native="true">
+        <property name="geometry">
+         <rect>
+          <x>1050</x>
+          <y>220</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <zorder>sp2a</zorder>
+       <zorder>sp2r</zorder>
+       <zorder>sp2t</zorder>
+       <zorder>sp2p_9</zorder>
+       <zorder>sp2p_10</zorder>
+       <zorder>sp2p_11</zorder>
+       <zorder>sp2p_12</zorder>
+       <zorder>sp2Altitude</zorder>
+       <zorder>sp2Rotation</zorder>
+       <zorder>sp2Pressure</zorder>
+       <zorder>sp2Temp</zorder>
+      </widget>
+      <widget class="QWidget" name="sp1" native="true">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>50</y>
+         <width>1221</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(233, 250, 255);
+image: null;</string>
+       </property>
+       <widget class="QCustomPlot" name="sp1Temp" native="true">
+        <property name="geometry">
+         <rect>
+          <x>925</x>
+          <y>1</y>
+          <width>288</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QCustomPlot" name="sp1Rotation" native="true">
+        <property name="geometry">
+         <rect>
+          <x>622</x>
+          <y>1</y>
+          <width>288</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QCustomPlot" name="sp1Pressure" native="true">
+        <property name="geometry">
+         <rect>
+          <x>15</x>
+          <y>1</y>
+          <width>288</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QCustomPlot" name="sp1Altitude" native="true">
+        <property name="geometry">
+         <rect>
+          <x>318</x>
+          <y>1</y>
+          <width>289</width>
+          <height>210</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp1t" native="true">
+        <property name="geometry">
+         <rect>
+          <x>903</x>
+          <y>36</y>
+          <width>31</width>
+          <height>121</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-04.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp1a" native="true">
+        <property name="geometry">
+         <rect>
+          <x>296</x>
+          <y>52</y>
+          <width>31</width>
+          <height>91</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-02.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp1r" native="true">
+        <property name="geometry">
+         <rect>
+          <x>601</x>
+          <y>50</y>
+          <width>31</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-03.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_5" native="true">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>212</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_6" native="true">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>212</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_7" native="true">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>212</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_8" native="true">
+        <property name="geometry">
+         <rect>
+          <x>1052</x>
+          <y>212</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <zorder>sp1t</zorder>
+       <zorder>sp1a</zorder>
+       <zorder>sp1r</zorder>
+       <zorder>sp2p_5</zorder>
+       <zorder>sp2p_6</zorder>
+       <zorder>sp2p_7</zorder>
+       <zorder>sp2p_8</zorder>
+       <zorder>sp1Temp</zorder>
+       <zorder>sp1Altitude</zorder>
+       <zorder>sp1Rotation</zorder>
+       <zorder>sp1Pressure</zorder>
+      </widget>
+      <widget class="QWidget" name="container" native="true">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>600</y>
+         <width>1221</width>
+         <height>241</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(233, 250, 255);
+image: null;</string>
+       </property>
+       <widget class="QCustomPlot" name="containerAltitude" native="true">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>2</y>
+          <width>288</width>
+          <height>219</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QCustomPlot" name="containerVoltage" native="true">
+        <property name="geometry">
+         <rect>
+          <x>623</x>
+          <y>2</y>
+          <width>289</width>
+          <height>219</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: null;</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_2" native="true">
+        <property name="geometry">
+         <rect>
+          <x>299</x>
+          <y>48</y>
+          <width>31</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-10.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_3" native="true">
+        <property name="geometry">
+         <rect>
+          <x>603</x>
+          <y>49</y>
+          <width>31</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-09.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp1p_2" native="true">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>43</y>
+          <width>41</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-01.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_4" native="true">
+        <property name="geometry">
+         <rect>
+          <x>904</x>
+          <y>50</y>
+          <width>31</width>
+          <height>101</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-05.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_13" native="true">
+        <property name="geometry">
+         <rect>
+          <x>450</x>
+          <y>220</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="sp2p_16" native="true">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>220</y>
+          <width>41</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: rgb(233, 250, 255);</string>
+        </property>
+       </widget>
+       <zorder>sp2p_2</zorder>
+       <zorder>sp2p_3</zorder>
+       <zorder>sp1p_2</zorder>
+       <zorder>sp2p_4</zorder>
+       <zorder>sp2p_13</zorder>
+       <zorder>sp2p_16</zorder>
+       <zorder>containerAltitude</zorder>
+       <zorder>containerVoltage</zorder>
+      </widget>
+      <widget class="QLabel" name="SciencePayload1">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>13</y>
+         <width>321</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 16pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>SCIENCE PAYLOAD 1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SciencePayload2">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>280</y>
+         <width>341</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 16pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SCIENCE PAYLOAD 2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="Container">
+       <property name="geometry">
+        <rect>
+         <x>600</x>
+         <y>557</y>
+         <width>290</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 16pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CONTAINER&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="sp1p" native="true">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>108</y>
+         <width>31</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/Images/Images/text-01.png);
+background-color: rgb(233, 250, 255);</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="sp2p" native="true">
+       <property name="geometry">
+        <rect>
+         <x>29</x>
+         <y>369</y>
+         <width>31</width>
+         <height>101</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: url(:/Images/Images/text-05.png);
+background-color: rgb(233, 250, 255);</string>
+       </property>
+      </widget>
+      <widget class="bar" name="sp2Pressurebar" native="true">
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>580</y>
+         <width>250</width>
+         <height>250</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>250</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent;
+image: null;</string>
+       </property>
+      </widget>
+      <widget class="bar" name="sp1Pressurebar" native="true">
+       <property name="geometry">
+        <rect>
+         <x>79</x>
+         <y>580</y>
+         <width>250</width>
+         <height>250</height>
+        </rect>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>250</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: transparent;
+image: null;</string>
+       </property>
+      </widget>
+      <zorder>sp2</zorder>
+      <zorder>sp1</zorder>
+      <zorder>container</zorder>
+      <zorder>SciencePayload1</zorder>
+      <zorder>Container</zorder>
+      <zorder>SciencePayload2</zorder>
+      <zorder>sp1p</zorder>
+      <zorder>sp2p</zorder>
+      <zorder>sp1Pressurebar</zorder>
+      <zorder>sp2Pressurebar</zorder>
+     </widget>
+     <widget class="QLabel" name="Headingold">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>-180</y>
+        <width>1801</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 81 36pt &quot;Roboto Slab ExtraBold&quot;;
+color: rgb(21, 229, 229);
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string>CANSAT 2021 CONTROL PANEL TEAM G.A.R.U.D.A</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="TeamLogo_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1747</width>
+        <height>125</height>
+       </rect>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::RightToLeft</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Images/Images/text-11.png);
+background-color: transparent;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Panel2">
+     <property name="mouseTracking">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">/*background-color: qlineargradient(spread:pad, x1:0.309, y1:0.335364, x2:1, y2:1, stop:0.224719 rgba(43, 0, 96, 255), stop:1 rgba(0, 196, 255, 255));*/
+/*background-color: rgb(46, 27, 58)*/
+/*background-color: qlineargradient(spread:pad, x1:0, y1:0.0454545, x2:1, y2:1, stop:0.623596 rgba(0, 196, 255, 255), stop:1 rgba(255, 255, 255, 255));*/
+
+background-color: qlineargradient(spread:pad, x1:0.309, y1:0.335364, x2:1, y2:1, stop:0.224719 rgba(43, 0, 96, 255), stop:1 rgba(0, 196, 255, 255));</string>
+     </property>
+     <attribute name="title">
+      <string>Panel 2</string>
+     </attribute>
+     <widget class="QQuickWidget" name="map">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>811</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;</string>
+      </property>
+      <property name="resizeMode">
+       <enum>QQuickWidget::SizeRootObjectToView</enum>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>990</x>
+        <y>10</y>
+        <width>381</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Images/Images/border1-01.png);
+background-color: transparent;</string>
+      </property>
+      <widget class="QLabel" name="label_121">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>221</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 16pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>SP1 Telemetry</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_132">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>188</y>
+         <width>100</width>
+         <height>47</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Celcius</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_129">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>80</y>
+         <width>110</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Packet Count</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP1PRESSURE">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>134</y>
+         <width>120</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_128">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>188</y>
+         <width>110</width>
+         <height>47</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Temperature</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_131">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>243</y>
+         <width>110</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Altitude</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP1ROTATION">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>295</y>
+         <width>120</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_136">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>80</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_127">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>241</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Meter</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_134">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>134</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Pascal</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP1ALTITUDE">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>241</y>
+         <width>120</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP1PACKETCOUNT">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>80</y>
+         <width>120</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_126">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>295</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>RPM</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP1TEMPERATURE">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>188</y>
+         <width>120</width>
+         <height>47</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_133">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>295</y>
+         <width>110</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Roboto Slab Black</family>
+         <pointsize>8</pointsize>
+         <weight>10</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Rotation Rate</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_122">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>134</y>
+         <width>110</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Pressure</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>390</y>
+        <width>1051</width>
+        <height>611</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Images/Images/ledmap.jpg);
+background-color: transparent;</string>
+      </property>
+      <widget class="ledc" name="state6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>790</x>
+         <y>530</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="ledc" name="state4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>590</x>
+         <y>150</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">=</string>
+       </property>
+      </widget>
+      <widget class="ledc" name="state2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>440</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="ledc" name="state3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>100</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="ledc" name="state5a" native="true">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>260</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="ledc" name="state5b" native="true">
+       <property name="geometry">
+        <rect>
+         <x>740</x>
+         <y>350</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="ledc" name="state1" native="true">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>530</y>
+         <width>40</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>40</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="state_1">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>530</y>
+         <width>151</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+font: 87 8pt &quot;Roboto Slab Black&quot;;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>(1) Launch</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="state_2">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>440</y>
+         <width>171</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+font: 87 8pt &quot;Roboto Slab Black&quot;;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>(2) Ascent</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="state_3">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>98</y>
+         <width>351</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+font: 87 8pt &quot;Roboto Slab Black&quot;;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>(3) CANSAT Deployment</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="state_7">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>527</y>
+         <width>171</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+font: 87 8pt &quot;Roboto Slab Black&quot;;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>(7) Landing</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="state_5">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>256</y>
+         <width>311</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+font: 87 8pt &quot;Roboto Slab Black&quot;;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>(5) Payload 1 Deployment</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="state_6">
+       <property name="geometry">
+        <rect>
+         <x>790</x>
+         <y>347</y>
+         <width>261</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+font: 87 8pt &quot;Roboto Slab Black&quot;;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>(6) Payload 2 Deployment</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="state_4">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>146</y>
+         <width>211</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+font: 87 8pt &quot;Roboto Slab Black&quot;;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>(4) Descent</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>1380</x>
+        <y>10</y>
+        <width>391</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: url(:/Images/Images/border1-01.png);
+background-color: transparent;</string>
+      </property>
+      <widget class="QLabel" name="label_89">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>30</y>
+         <width>230</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: rgb(233, 250, 255);
+font: 87 16pt &quot;Roboto Slab Black&quot;;</string>
+       </property>
+       <property name="text">
+        <string>SP2 Telemetry</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_104">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>188</y>
+         <width>110</width>
+         <height>47</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Temperature</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_100">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>80</y>
+         <width>110</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Packet Count</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP2PACKETCOUNT">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>80</y>
+         <width>101</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_96">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>295</y>
+         <width>110</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Rotation Rate</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_95">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>134</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Pascal</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP2PRESSURE">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>134</y>
+         <width>101</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_102">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>295</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>RPM</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP2ALTITUDE">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>241</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP2ROTATION">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>295</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="SP2TEMPERATURE">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>188</y>
+         <width>101</width>
+         <height>47</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_94">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>241</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Meter</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_101">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>241</y>
+         <width>110</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Altitude</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_90">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>188</y>
+         <width>100</width>
+         <height>47</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Celcius</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_103">
+       <property name="geometry">
+        <rect>
+         <x>25</x>
+         <y>134</y>
+         <width>110</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>Pressure</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_91">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>80</y>
+         <width>100</width>
+         <height>48</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">image: null;
+background-color: transparent;</string>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QCustomPlot" name="gpsaltitude" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>590</y>
+        <width>811</width>
+        <height>391</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: null;
+background-color: transparent;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MapApiLabel">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>801</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: null;
+background-color: transparent;
+font: 87 16pt &quot;Roboto Slab Black&quot;;
+color: rgb(0, 255, 23);</string>
+      </property>
+      <property name="text">
+       <string>Mapping Container coordinates to Google Maps API</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="MapAltitudeLabel">
+      <property name="geometry">
+       <rect>
+        <x>12</x>
+        <y>540</y>
+        <width>701</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">image: null;
+background-color: transparent;
+font: 87 16pt &quot;Roboto Slab Black&quot;;
+color: rgb(0, 255, 23);</string>
+      </property>
+      <property name="text">
+       <string>Mapping Container Altitude</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QQuickWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">QtQuickWidgets/QQuickWidget</header>
+  </customwidget>
+  <customwidget>
+   <class>QCustomPlot</class>
+   <extends>QWidget</extends>
+   <header>qcustomplot.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ledc</class>
+   <extends>QWidget</extends>
+   <header location="global">ledc.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>bar</class>
+   <extends>QWidget</extends>
+   <header>bar.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

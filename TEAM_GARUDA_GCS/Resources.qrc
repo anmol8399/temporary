@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Images/bar.png</file>
+        <file>Images/border-02.png</file>
+        <file>Images/border-03.png</file>
+        <file>Images/border-04.png</file>
+        <file>Images/cansat.png</file>
+        <file>Images/greenled.png</file>
+        <file>Images/kalpana.png</file>
+        <file>Images/panel.png</file>
+        <file>Images/redled.png</file>
+        <file>Images/TeamLogo.png</file>
+        <file>Images/text-01.png</file>
+        <file>Images/text-02.png</file>
+        <file>Images/text-03.png</file>
+        <file>Images/text-04.png</file>
+        <file>Images/text-05.png</file>
+        <file>Images/text-06.png</file>
+        <file>Images/text-07.png</file>
+        <file>Images/text-08.png</file>
+        <file>Images/text-09.png</file>
+        <file>Images/text-10.png</file>
+        <file>Images/ledmap.jpg</file>
+        <file>Images/border-01.png</file>
+        <file>Images/text-11.png</file>
+        <file>Images/border1-01.png</file>
+        <file>Images/border1-02.png</file>
+        <file>Images/border1-03.png</file>
+    </qresource>
+</RCC>
